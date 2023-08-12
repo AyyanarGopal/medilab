@@ -1,0 +1,262 @@
+
+@media(max-width: 1200px){
+    .navbar-section .btn{
+        display: none;
+    }
+    .banner2 .box2{
+        flex-direction: column;
+    }
+    .banner2 .box2 .column {
+        margin: 15px 0 15px 20px;
+    }
+}
+
+@media(max-width: 992px){
+    .navbar-section .navbar{
+        display: none;
+    }
+    .menubar{
+        display: block;
+    }
+    .navbar-section{
+        justify-content: space-between;
+        padding: 0 16px;
+    }
+
+    .banner .text .head {
+        font-size: 2em;
+    }
+    
+    .banner .text .para{
+        font-size: 1.4em;
+    }
+
+    .banner2{
+        flex-direction: column;
+        top: 0;
+    }
+
+    .banner2 .box{
+        margin: 10px;
+    }
+    
+    .banner2 .box2 .column {
+        margin: 0 0 20px 0;
+    }
+   
+    .about{
+        flex-wrap: wrap;
+        margin-top: 0px;
+    }
+    .about > div{
+        flex-basis: 100%;
+    }
+    .service-gallery{
+        grid-template-columns: repeat(2, minmax(auto, 1fr));
+    }
+    .dep-tab{
+        padding: 30px 0;
+    }
+    .doctors-gallery .column{
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+   .photo-gallery{
+        grid-template-columns: auto auto auto;
+   }
+   .contact-form{
+    flex-direction: column;
+   }
+   .footer2{
+        padding: 15px;
+   }
+}
+
+@media(max-width: 786px){
+    .header1 .preview, .header1 .download{
+        display: none;
+    }
+
+    .form1{
+        grid-template-areas: 'first second'
+                                'third fourth'
+                                'fivth sixth'
+                                'seventh seventh'
+                                'eight eight';
+    }
+    .dep-tab{
+        flex-direction: column;
+        border: 1px solid darkgrey;
+        margin: 5px;
+    }
+    
+    .dep-tab .tabcontent {
+        padding: 0px 13px;
+    }
+    .dep-tab .tabs button {
+        display: inline-block;
+        width: auto;
+        font-size: 15px;
+    }
+    .dep-tab .tabs button:hover {
+        border-right: none; 
+    }
+
+    .doctors-gallery{
+        gap: 28px;
+    }
+    .frequently-gallery{
+       flex-direction: column; 
+    }
+    .photo-gallery{
+        grid-template-columns: auto auto;
+    }
+    .footer2{
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+       }
+    
+}
+
+@media(max-width: 648px){
+    .footer .column1{
+        order: 1;
+    }.footer .column2{
+        order: 3;
+    }.footer .column3{
+        order: 4;
+    }
+    .footer .column4{
+        order: 2;
+    }
+}
+
+@media(max-width: 600px){
+    .header2{
+        justify-content: center;
+    }
+    
+    .header2 .column2{
+        display: none;
+    }  
+
+    .banner .text .head {
+       line-height: 35px;
+    }
+    
+    .banner .text .para{
+        line-height: 35px;
+    }
+
+    .service-gallery{
+        grid-template-columns: repeat(1, minmax(auto, 1fr))
+    }   
+    .res-head p{ 
+        padding: 0 30px;
+    }
+   
+    .dep-tab .tabs{
+        text-align: center;
+    }
+    .doctors-gallery{
+        grid-template-columns: auto;
+    }
+    .doctors-gallery .column{
+        flex-wrap: nowrap;
+    }
+    .contact-form .right .first{
+        flex-direction: column;
+    }
+    .footer .column4 .input-subscribe input{
+        padding: 10px 0;
+    }
+    .footer .column4 .input-subscribe button{
+        padding: 0 10px;
+    }
+
+}
+
+@media(max-width: 480px){
+    .header1{
+        display: none;
+    }
+    .header2{
+        padding: 0;
+    }
+    .header2 .column1{
+        flex-direction: column;
+    }
+    .header2{
+        display: none;
+    } 
+    .banner2{
+        padding: 5px;
+    } 
+    .about > div{
+        margin: 7px;
+    }
+    .res-head p{ 
+        padding: 0 7px;
+    }
+    
+    .form1{
+        grid-template-areas: 'first' 'second' 'third' 'fourth' 'fivth' 'sixth' 'seventh' 'eight';
+    }
+   
+    .dep-tab .tabcontent img{
+        float: none;
+    }
+    .dep-tab .tabcontent{
+        text-align: center;
+    }
+    .doctors-gallery .column{
+        flex-wrap: wrap;
+    }
+    .frequently-gallery .column{
+        padding: 20px 5px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .photo-gallery{
+        grid-template-columns: auto;
+    }
+    .contact-form > div{
+        padding: 15px;   
+    }
+    .footer2{
+        padding: 0;
+    }
+    .footer2 > div{
+        padding: 0;
+    }
+
+}
+
+@media(max-width: 320px){
+    .about .right .icon-text{
+       text-align: center;
+        flex-direction: column-reverse;
+        margin: 30px 0;
+    }
+    .about2{
+        overflow: hidden;
+    }
+    .service-gallery {
+        width: 98%;
+    }
+    .form1{
+        padding: 5px;
+    }
+    .doctors-gallery{
+        margin: 50px 5px;
+    }
+    .contact-form > div{
+        padding: 6px;
+        
+    }
+    .footer .column1, .footer .column4{
+        text-align: center;
+    }
+}
